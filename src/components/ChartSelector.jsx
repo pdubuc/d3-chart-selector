@@ -12,9 +12,9 @@ import MenuList from "@mui/material/MenuList";
 const ChartSelector = ({ selectedChart, onChartSelect }) => {
   const charts = [
     "Select a Chart Type",
-    "Collapsible Tree",
-    "Radial Tidy Tree",
-    "Circle Packing",
+    "Tidy Tree",
+    "Radial Tree",
+    "Circle Pack",
   ];
 
   const [open, setOpen] = React.useState(false);

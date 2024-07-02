@@ -10,11 +10,11 @@ export default function Output({ chartType, data }) {
     if (!data || !rootRef.current) return;
 
     let chart = "";
-    if (chartType === "Collapsible Tree") {
+    if (chartType === "Tidy Tree") {
       chart = renderTree(data);
-    } else if (chartType === "Radial Tidy Tree") {
+    } else if (chartType === "Radial Tree") {
       chart = renderRadial(data);
-    } else if (chartType === "Circle Packing") {
+    } else if (chartType === "Circle Pack") {
       chart = renderCircle(data);
     }
     rootRef.current.innerHTML = "";
