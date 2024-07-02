@@ -30,7 +30,7 @@ const UploadJson = ({ onFileUpload }) => {
 
   return (
     <div>
-      <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+      <Box sx={{ display: "flex", alignItems: "center", gap: 2, mt: 2, mb: 1 }}>
         <HtmlTooltip title="Please select a file of type .json">
           <Button
             component="label"
@@ -49,7 +49,7 @@ const UploadJson = ({ onFileUpload }) => {
           </Button>
         </HtmlTooltip>
         {fileName && (
-          <Typography variant="body1" sx={{ margin: 2 }}>
+          <Typography variant="body1">
             {fileName && (
               <Typography variant="body2" component="span">
                 Selected file: {fileName}
