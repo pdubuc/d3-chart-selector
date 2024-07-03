@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-const renderRadial = (data) => {
+const renderRadial = (data, nodeType, colors) => {
   // Specify the chart’s dimensions.
   const width = 1328;
   const height = width;
@@ -13,6 +13,11 @@ const renderRadial = (data) => {
   const tree = d3.tree()
       .size([2 * Math.PI, radius])
       .separation((a, b) => (a.parent == b.parent ? 1 : 2) / a.depth);
+
+  // Define the color scale for node_type
+  const nodeTypeColorScale = d3.scaleOrdinal()
+  .domain(nodeType)
+  .range(colors);
 
   // Sort the tree and apply the layout.
   const root = tree(d3.hierarchy(data)
@@ -44,8 +49,9 @@ const renderRadial = (data) => {
     .data(root.descendants())
     .join("circle")
       .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0)`)
-      .attr("fill", d => d.children ? "#555" : "#999")
-      .attr("r", 2.5);
+      .attr("fill", d => nodeTypeColorScale(d.data.node_type))
+      // .attr("fill", d => d.children ? "#555" : "#999") // OOTB code
+      .attr("r", 3.5); // bullet size
 
   // Append labels.
   svg.append("g")
@@ -56,7 +62,7 @@ const renderRadial = (data) => {
     .join("text")
       .attr("transform", d => `rotate(${d.x * 180 / Math.PI - 90}) translate(${d.y},0) rotate(${d.x >= Math.PI ? 180 : 0})`)
       .attr("dy", "0.31em")
-      .attr("x", d => d.x < Math.PI === !d.children ? 6 : -6)
+      .attr("x", d => d.x < Math.PI === !d.children ? 10 : -10) // space b/w bullet & label
       .attr("text-anchor", d => d.x < Math.PI === !d.children ? "start" : "end")
       .attr("paint-order", "stroke")
       .attr("stroke", "white")

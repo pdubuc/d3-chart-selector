@@ -1,6 +1,6 @@
 import * as d3 from "d3";
 
-const renderTree = (data) => {
+const renderTree = (data, nodeType, colors) => {
   // Specify the charts’ dimensions. The height is variable, depending on the layout.
   const width = 1300;
   const marginTop = 40;
@@ -21,6 +21,11 @@ const renderTree = (data) => {
     .linkHorizontal()
     .x((d) => d.y)
     .y((d) => d.x);
+
+  // Define color scale for node_type
+  const nodeTypeColorScale = d3.scaleOrdinal()
+  .domain(nodeType)
+  .range(colors);
 
   // Create the SVG container, a layer for the links and a layer for the nodes.
   const svg = d3
@@ -89,14 +94,15 @@ const renderTree = (data) => {
 
     nodeEnter
       .append("circle")
-      .attr("r", 2.5)
-      .attr("fill", (d) => (d._children ? "#555" : "#999"))
+      .attr("r", d => d.children || d._children ? 5 : 3.5)  // Increased radius for nodes with children
+      .attr("fill", d => d.children ? "#555" : nodeTypeColorScale(d.data.node_type))
+      // .attr("fill", (d) => (d._children ? "#555" : "#999")) // OOTB code
       .attr("stroke-width", 10);
 
     nodeEnter
       .append("text")
       .attr("dy", "0.31em")
-      .attr("x", (d) => (d._children ? -6 : 6))
+      .attr("x", (d) => (d._children ? -12 : 12)) // space b/w bullet & label
       .attr("text-anchor", (d) => (d._children ? "end" : "start"))
       .text((d) => d.data.name)
       .attr("stroke-linejoin", "round")
