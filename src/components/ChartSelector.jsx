@@ -21,7 +21,9 @@ const ChartSelector = ({ selectedChart, onChartSelect }) => {
   const anchorRef = React.useRef(null);
 
   const handleClick = () => {
-    console.info(`You clicked ${selectedChart}`);
+    console.info(
+      `You clicked ${selectedChart ? selectedChart : "Select a Chart Type"}`
+    );
   };
 
   const handleMenuItemClick = (event, index) => {
