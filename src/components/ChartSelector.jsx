@@ -15,6 +15,7 @@ const ChartSelector = ({ selectedChart, onChartSelect }) => {
     "Tidy Tree",
     "Radial Tree",
     "Circle Pack",
+    // "Sunburst",
   ];
 
   const [open, setOpen] = React.useState(false);

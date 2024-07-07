@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Button, Typography, Box } from "@mui/material";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import { VisuallyHiddenInput, HtmlTooltip } from "./ButtonStyles";
+import { VisuallyHiddenInput, HtmlTooltip } from "./MUIStyles";
 
 const UploadJson = ({ onFileUpload }) => {
   const [fileName, setFileName] = useState("");
