@@ -1,0 +1,60 @@
+[33mcommit f19ec824df8e36d0e213c4a6042b84ce89d1abac[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Sun Jul 21 19:23:56 2024 -0700
+
+    Initial commit
+
+[33mcommit 5cb39d8c78af824ee13c05ae080cb02c4072e758[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Sun Jul 7 15:10:55 2024 -0700
+
+    Update all 3 charts based on feedback from July 5, detailed in CHANGELOG.md
+
+[33mcommit 8daddbebf58e8238848bb52fbb4931e48be7a808[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Tue Jul 2 20:56:56 2024 -0700
+
+    Removed console.log checks
+
+[33mcommit 6c909c263d840f91fa45380a546f38a33e8297c0[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Tue Jul 2 20:28:40 2024 -0700
+
+    Added colors, made parent nodes larger
+
+[33mcommit dac38767bb9551bad55fffb6a889337183188d09[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Mon Jul 1 22:00:21 2024 -0700
+
+    updated the chart names
+
+[33mcommit d1e817da1064e01559a0160bacc1695ac9c2f49f[m
+Merge: ad5b914 8c1e2c9
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Mon Jul 1 19:50:57 2024 -0700
+
+    Merge branch 'master' of https://github.com/pdubuc/kbchart
+
+[33mcommit ad5b91480b8bc2c883192d86c82da5247e5178a5[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Mon Jul 1 19:50:53 2024 -0700
+
+    Corrected alignment issue
+
+[33mcommit 8c1e2c92f13e5bda78ceb64d42de9e15e5ddf3c1[m
+Author: toasty <pdubuc@users.noreply.github.com>
+Date:   Tue Jul 2 02:32:03 2024 +0000
+
+    Codesandbox first sync
+
+[33mcommit 3713dcf1ae9368dbd4ef6e5540287ecad2cd0e40[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Mon Jul 1 19:20:58 2024 -0700
+
+    First commit, full app
+
+[33mcommit 71c76f78723097e4339f8eb2309abc8cf4d1fd54[m
+Author: “pdubuc” <“pd21248@gmail.com”>
+Date:   Sun Jun 23 08:12:26 2024 -0700
+
+    Initialize project using Create React App
