@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import renderTree from "../util/renderTree";
 import renderRadial from "../util/renderRadial";
-import renderCircle from "../util/renderCircle";
+import CirclePackChart from "../charts/CirclePackChart";
 // import renderSunburst from "../util/renderSunburst";
 
 export default function Output({ chartType, data }) {
@@ -16,7 +16,7 @@ export default function Output({ chartType, data }) {
     } else if (chartType === "Radial Tree") {
       chart = renderRadial(data);
     } else if (chartType === "Circle Pack") {
-      chart = renderCircle(data);
+      chart = CirclePackChart(data);
       // } else if (chartType === "Sunburst") {
       //   chart = renderSunburst(data, nodeType, colors);
     }

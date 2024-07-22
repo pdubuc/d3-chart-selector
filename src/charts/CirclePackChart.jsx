@@ -2,9 +2,9 @@ import * as d3 from "d3";
 
 const format = d3.format(",d");
 
-const renderCircle = (data) => {
+const CirclePackChart = (data) => {
   // Specify the dimensions of the chart.
-  const width = 1228;
+  const width = 1400;
   const height = width;
   const margin = 15; // to avoid clipping the root circle stroke
 
@@ -26,9 +26,9 @@ const renderCircle = (data) => {
         "0_role_folder": 30,
         "1_user_node": 25,
         "1.5_value_chain": 20,
-        "2_best_practice": 18,
+        "2_best_practice": 15,
         "2.5_value_link": 15,
-        "3_process": 12,
+        "3_process": 10,
         "4_methodology": 10,
       };
       const minRadius = nodeTypeMinRadius[d.data.node_type] || baseRadius;
@@ -148,4 +148,4 @@ const renderCircle = (data) => {
   return svg.node();
 };
 
-export default renderCircle;
+export default CirclePackChart;
