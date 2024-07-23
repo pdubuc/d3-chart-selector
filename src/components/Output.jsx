@@ -3,9 +3,10 @@ import TidyTree from "../charts/TidyTree";
 import RadialChart from "../charts/RadialChart";
 import CirclePackChart from "../charts/CirclePackChart";
 import SunburstChart from "../charts/SunburstChart";
-import ForceDirectedTreeChart from "../charts/ForceTreeChart";
+import ForceDirectedTreeChart from "../charts/ForceTreeChart"; // Not Working
+import { CirclePackingDraw } from "../charts/CirclePack_Test"; // Not Ready
+import { SankeyChartDraw } from "../charts/SankeyChart_Test"; // Not Ready
 import data from "../data/DG-data.json";
-// import circlePackingDG from "../data/circlePackingDG.json";
 
 export default function Output({ chartType }) {
   const rootRef = useRef();
@@ -24,10 +25,14 @@ export default function Output({ chartType }) {
       chart = SunburstChart(data);
     } else if (chartType === "Force Directed Tree") {
       chart = ForceDirectedTreeChart(data);
+    } else if (chartType === "Circle Pack Test") {
+      chart = CirclePackingDraw(data);
+    } else if (chartType === "Sankey Test") {
+      chart = SankeyChartDraw(data);
     }
     rootRef.current.innerHTML = "";
     rootRef.current.appendChild(chart);
-  }, [chartType, data, rootRef]);
+  }, [chartType, rootRef]);
 
   return <div ref={rootRef}></div>;
 }

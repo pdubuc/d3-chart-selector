@@ -17,6 +17,8 @@ const ChartSelector = ({ selectedChart, onChartSelect }) => {
     "Circle Pack",
     "Sunburst",
     "Force Directed Tree",
+    "Circle Pack Test",
+    "Sankey Test",
   ];
 
   const [open, setOpen] = React.useState(false);
