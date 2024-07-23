@@ -34,19 +34,19 @@ const RadialChart = (data) => {
   // Assign node_type a value for determining the size of the circle
   function getNodeRadius(nodeType) {
     switch (nodeType) {
-      case "0_role_folder":
+      case "0_area_folder":
         return 8;
-      case "1_user_node":
+      case "1_standard_node":
         return 7;
       case "1.5_value_chain":
         return 6;
-      case "2_best_practice":
+      case "2_control_measure":
         return 5.5;
       case "2.5_value_link":
         return 5;
-      case "3_process":
+      case "3_procedure":
         return 4;
-      case "4_methodology":
+      case "4_action":
         return 3.5;
       default:
         return 3.5; // Default size for unknown node types

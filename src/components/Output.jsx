@@ -1,10 +1,13 @@
 import React, { useEffect, useRef } from "react";
-import renderTree from "../util/renderTree";
-import renderRadial from "../util/renderRadial";
+import TidyTree from "../charts/TidyTree";
+import RadialChart from "../charts/RadialChart";
 import CirclePackChart from "../charts/CirclePackChart";
-// import renderSunburst from "../util/renderSunburst";
+import SunburstChart from "../charts/SunburstChart";
+import ForceDirectedTreeChart from "../charts/ForceTreeChart";
+import data from "../data/DG-data.json";
+// import circlePackingDG from "../data/circlePackingDG.json";
 
-export default function Output({ chartType, data }) {
+export default function Output({ chartType }) {
   const rootRef = useRef();
 
   useEffect(() => {
@@ -12,13 +15,15 @@ export default function Output({ chartType, data }) {
 
     let chart = "";
     if (chartType === "Tidy Tree") {
-      chart = renderTree(data);
+      chart = TidyTree(data);
     } else if (chartType === "Radial Tree") {
-      chart = renderRadial(data);
+      chart = RadialChart(data);
     } else if (chartType === "Circle Pack") {
       chart = CirclePackChart(data);
-      // } else if (chartType === "Sunburst") {
-      //   chart = renderSunburst(data, nodeType, colors);
+    } else if (chartType === "Sunburst") {
+      chart = SunburstChart(data);
+    } else if (chartType === "Force Directed Tree") {
+      chart = ForceDirectedTreeChart(data);
     }
     rootRef.current.innerHTML = "";
     rootRef.current.appendChild(chart);

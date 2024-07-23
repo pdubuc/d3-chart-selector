@@ -23,13 +23,13 @@ const CirclePackChart = (data) => {
     .radius((d) => {
       const baseRadius = Math.sqrt(d.value);
       const nodeTypeMinRadius = {
-        "0_role_folder": 30,
-        "1_user_node": 25,
+        "0_area_folder": 30,
+        "1_standard_node": 25,
         "1.5_value_chain": 20,
-        "2_best_practice": 15,
+        "2_control_measure": 15,
         "2.5_value_link": 15,
-        "3_process": 10,
-        "4_methodology": 10,
+        "3_procedure": 10,
+        "4_action": 10,
       };
       const minRadius = nodeTypeMinRadius[d.data.node_type] || baseRadius;
       const adjustedRadius = d.children ? minRadius * 1.2 : minRadius; // Increase size for parent nodes
@@ -94,11 +94,11 @@ const CirclePackChart = (data) => {
     .attr("clip-path", (d) => `circle(${d.r})`)
     .attr("fill", (d) => {
       // Adjust the text color logic for readability.
-      if (d.data.node_type === "0_role_folder") {
+      if (d.data.node_type === "0_area_folder") {
         return "white";
       } else if (
         d.data.node_type === "1.5_value_chain" ||
-        d.data.node_type === "4_methodology"
+        d.data.node_type === "4_action"
       ) {
         return "#EEEEEE";
       } else {

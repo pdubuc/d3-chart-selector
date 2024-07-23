@@ -5,7 +5,7 @@ const TidyTree = (data) => {
     // Specify the charts' dimensions.
     let width = document.body.clientWidth;
     const marginRight = 10;
-    const marginLeft = 60;
+    const marginLeft = 160;
 
     // Create the root hierarchy
     const root = d3.hierarchy(data);
@@ -39,19 +39,19 @@ const TidyTree = (data) => {
     // Assign node_type a value for determining the size of the circle
     function getNodeRadius(nodeType) {
       switch (nodeType) {
-        case "0_role_folder":
+        case "0_area_folder":
           return 10;
-        case "1_user_node":
+        case "1_standard_node":
           return 9;
         case "1.5_value_chain":
           return 8;
-        case "2_best_practice":
+        case "2_control_measure":
           return 7;
         case "2.5_value_link":
           return 6;
-        case "3_process":
+        case "3_procedure":
           return 5;
-        case "4_methodology":
+        case "4_action":
           return 4;
         default:
           return 3.5; // Default size for unknown node types

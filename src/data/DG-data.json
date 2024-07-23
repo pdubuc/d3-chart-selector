@@ -1,0 +1,668 @@
+{
+  "node_type": "0_area_folder",
+  "value": 1300,
+  "unique_id": "00bacc35-e031-41ca-b937-0cb571013f6b",
+  "name": "Data Governance",
+  "children": [
+    {
+      "node_type": "0_area_folder",
+      "value": 1300,
+      "unique_id": "68aa313f-3d33-484d-80e7-6dbb1e16709e",
+      "name": "Compliance Management",
+      "children": [
+        {
+          "node_type": "0_area_folder",
+          "value": 1300,
+          "unique_id": "d66ad14c-fe51-49a5-8eaa-289ff69775f7",
+          "name": "User Access Control",
+          "children": [
+            {
+              "node_type": "1_standard_node",
+              "value": 1100,
+              "unique_id": "5ab73095-0ec2-4e95-a12f-a3650a077875",
+              "name": "Mitigation Strategies",
+              "color": "#FFA500"
+            },
+            {
+              "node_type": "1_standard_node",
+              "value": 1100,
+              "unique_id": "68217c9b-bbb9-4cdb-b7c3-8afcbc434b6b",
+              "name": "Access Policies",
+              "color": "#FFA500"
+            },
+            {
+              "node_type": "1_standard_node",
+              "value": 1100,
+              "unique_id": "13a10e15-6d2c-4dd3-acf5-95059de95a2c",
+              "name": "User Permissions",
+              "color": "#FFA500"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "4d73a87d-0f42-4fb4-aa95-6da70de4752c",
+              "name": "Security Audits",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "b3a35e39-0bb4-4411-b849-119cd2a52ab9",
+              "name": "Quality Metrics",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "9eb6bb38-50ae-4f59-ae44-b5d35ad9e025",
+              "name": "Privacy Audits",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "d7c9210e-1162-4996-a5af-da952af98633",
+              "name": "Retention Audits",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "7ab80a18-0b08-4497-8f97-7d8239a43245",
+              "name": "Log Reviews",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "db89f210-02bf-4748-ada7-550e16da6c23",
+              "name": "Risk Reporting",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "51d91769-6924-4280-88ff-cd64a458315b",
+              "name": "Access Reviews",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "fdb942f6-2c56-4908-a9b8-e1ec96f0512e",
+              "name": "Backup Audits",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "c1fe3e95-0f64-486b-90d1-4ec65ad562e7",
+              "name": "Incident Reviews",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "e9604fd0-7553-4805-9b40-7abb3d0d4dcf",
+              "name": "Quality Metrics",
+              "color": "#66CDAA"
+            },
+            {
+              "node_type": "2_control_measure",
+              "value": 700,
+              "unique_id": "3a8d3295-1418-41ee-881d-9730bf73250e",
+              "name": "Privacy Audits",
+              "color": "#66CDAA"
+            }
+          ],
+          "color": "#4169E1"
+        },
+        {
+          "node_type": "1_standard_node",
+          "value": 1100,
+          "unique_id": "127a7c88-0d08-49bd-b5aa-d0ce44f53af7",
+          "name": "Compliance Audits",
+          "children": [
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "fe2876cb-dbe1-441c-ba6c-4173b7588f3d",
+              "name": "Data Verification",
+              "color": "#ADD8E6"
+            }
+          ],
+          "color": "#FFA500"
+        }
+      ],
+      "color": "#4169E1"
+    },
+    {
+      "node_type": "0_area_folder",
+      "value": 1300,
+      "unique_id": "33193945-657c-455d-966e-51da70d8ab2b",
+      "name": "Data Security",
+      "children": [
+        {
+          "node_type": "0_area_folder",
+          "value": 1300,
+          "unique_id": "5af397da-b781-452a-be86-da26e076d20b",
+          "name": "Backup and Recovery",
+          "children": [
+            {
+              "node_type": "0_area_folder",
+              "value": 1300,
+              "unique_id": "c1ab1767-e877-4fbb-8afe-ace9f077023e",
+              "name": "Data Retention",
+              "children": [
+                {
+                  "node_type": "0_area_folder",
+                  "value": 1300,
+                  "unique_id": "ca31b743-c413-483a-ba83-5ef30ad89802",
+                  "name": "Incident Management",
+                  "children": [
+                    {
+                      "node_type": "1_standard_node",
+                      "value": 1100,
+                      "unique_id": "48a3a111-3fcd-4a98-8b3a-c304cd6e3574",
+                      "name": "Regulatory Adherence",
+                      "children": [
+                        {
+                          "node_type": "4_action",
+                          "value": 500,
+                          "unique_id": "433061ee-e44c-4698-b2c5-d672dd4319bc",
+                          "name": "Recovery Drills",
+                          "color": "#006400"
+                        },
+                        {
+                          "node_type": "4_action",
+                          "value": 500,
+                          "unique_id": "828501d4-07b0-4bcf-a739-6252cea05890",
+                          "name": "Incident Management Training",
+                          "color": "#006400"
+                        },
+                        {
+                          "node_type": "4_action",
+                          "value": 500,
+                          "unique_id": "61f3e561-1228-436b-a38e-0a3eb795bfcc",
+                          "name": "Response Drills",
+                          "color": "#006400"
+                        }
+                      ],
+                      "color": "#FFA500"
+                    }
+                  ],
+                  "color": "#4169E1"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "63c4f92b-13a7-4150-ba4e-3d61676510cd",
+                  "name": "Data Accuracy",
+                  "children": [
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "b46d9a51-da2f-4a30-ac83-7d8a3bc473ed",
+                      "name": "Accuracy Checks",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "0a2a668b-b043-4811-9331-c7e75f99fecc",
+                      "name": "Policy Enforcement",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "552b6512-36bc-45cc-a44e-2a8526948b2f",
+                      "name": "Policy Review",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "d7174548-fd70-4e8f-ba0a-47fcca1fa258",
+                      "name": "Schedule Development",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "aadbf353-500a-47fd-a414-ae22d59fb217",
+                      "name": "Retention Review",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "b7586e35-134f-4bc4-af21-60543f74f38a",
+                      "name": "Policy Enforcement",
+                      "color": "#ADD8E6"
+                    },
+                    {
+                      "node_type": "4_action",
+                      "value": 500,
+                      "unique_id": "a4270f1a-22f5-4ed2-a947-be4073170985",
+                      "name": "Data Quality Reporting",
+                      "color": "#006400"
+                    },
+                    {
+                      "node_type": "4_action",
+                      "value": 500,
+                      "unique_id": "42980f38-3020-4f35-bc91-54e3ceef016a",
+                      "name": "Confidentiality Training",
+                      "color": "#006400"
+                    },
+                    {
+                      "node_type": "4_action",
+                      "value": 500,
+                      "unique_id": "54473f04-aea4-48d0-98bf-c8fd4ec49afc",
+                      "name": "Archiving Implementation",
+                      "color": "#006400"
+                    },
+                    {
+                      "node_type": "4_action",
+                      "value": 500,
+                      "unique_id": "ba232bd2-73ce-4000-a086-cbc9ee212545",
+                      "name": "Retention Policy Updates",
+                      "color": "#006400"
+                    },
+                    {
+                      "node_type": "4_action",
+                      "value": 500,
+                      "unique_id": "559d6d0e-b5ee-42fd-af9e-48d55938a2eb",
+                      "name": "Compliance Verification",
+                      "color": "#006400"
+                    }
+                  ],
+                  "color": "#FFA500"
+                }
+              ],
+              "color": "#4169E1"
+            },
+            {
+              "node_type": "0_area_folder",
+              "value": 1300,
+              "unique_id": "6b59539a-86dd-4df4-8c13-413d63afc9de",
+              "name": "Audit Trails",
+              "children": [
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "6ecfb3d5-ffe8-4541-8720-7fa1fb7ad8ba",
+                  "name": "Privacy Policies",
+                  "children": [
+                    {
+                      "node_type": "3_procedure",
+                      "value": 500,
+                      "unique_id": "fb9a9bbc-a9eb-4df6-b30f-748959c49fe8",
+                      "name": "Response Plan Development",
+                      "color": "#ADD8E6"
+                    }
+                  ],
+                  "color": "#FFA500"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "762048b7-9bc8-4b5f-beca-aba6b67d854d",
+                  "name": "Confidentiality Agreements",
+                  "color": "#FFA500"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "8753c024-c4f5-4bfa-bbc4-638919550543",
+                  "name": "Retention Schedules",
+                  "color": "#FFA500"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "59ff3a6d-4992-476f-b652-f6f64e41da89",
+                  "name": "Archiving Policies",
+                  "color": "#FFA500"
+                }
+              ],
+              "color": "#4169E1"
+            },
+            {
+              "node_type": "0_area_folder",
+              "value": 1300,
+              "unique_id": "9c061277-4861-4d61-9a95-ac590e5408dc",
+              "name": "Risk Management",
+              "children": [
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "a986abc5-d86d-4581-a449-56f17c2d1a74",
+                  "name": "Audit Logs",
+                  "color": "#FFA500"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "d7abb7cc-0aea-414a-82f3-1afa3861409f",
+                  "name": "Compliance Logs",
+                  "color": "#FFA500"
+                },
+                {
+                  "node_type": "1_standard_node",
+                  "value": 1100,
+                  "unique_id": "c8fa13c1-45df-407b-b289-7711b34672a9",
+                  "name": "Risk Assessments",
+                  "color": "#FFA500"
+                }
+              ],
+              "color": "#4169E1"
+            },
+            {
+              "node_type": "1_standard_node",
+              "value": 1100,
+              "unique_id": "f2057ddb-adc7-459a-a9c7-cc65ab1de533",
+              "name": "Standards Compliance",
+              "children": [
+                {
+                  "node_type": "3_procedure",
+                  "value": 500,
+                  "unique_id": "cac9318f-843c-429b-a776-6b55599139d6",
+                  "name": "Policy Approval",
+                  "color": "#ADD8E6"
+                },
+                {
+                  "node_type": "3_procedure",
+                  "value": 500,
+                  "unique_id": "60a0bbc9-a873-47b8-903f-f83be97b54e7",
+                  "name": "Regulatory Research",
+                  "color": "#ADD8E6"
+                },
+                {
+                  "node_type": "3_procedure",
+                  "value": 500,
+                  "unique_id": "b701aa3e-6a4a-4acc-b052-98550d0ed5e6",
+                  "name": "Compliance Updates",
+                  "color": "#ADD8E6"
+                },
+                {
+                  "node_type": "3_procedure",
+                  "value": 500,
+                  "unique_id": "6a6887bc-aecd-4eab-90d9-c03bfc63813c",
+                  "name": "Security Assessments",
+                  "color": "#ADD8E6"
+                },
+                {
+                  "node_type": "3_procedure",
+                  "value": 500,
+                  "unique_id": "58be6884-4dcd-4236-8452-a3c9139824e5",
+                  "name": "Protocol Updates",
+                  "color": "#ADD8E6"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "e47c4b55-7f98-4b92-aabc-c43f2cd45738",
+                  "name": "Policy Implementation",
+                  "color": "#006400"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "830f796a-25b9-4d68-9095-128739a56907",
+                  "name": "Policy Training",
+                  "color": "#006400"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "d984b4e4-0e9e-4650-bf85-8d038f6eb0cf",
+                  "name": "Compliance Training",
+                  "color": "#006400"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "465b9337-fbfe-4bf8-9aca-a728f29b7cb5",
+                  "name": "Regulatory Audits",
+                  "color": "#006400"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "c6b2df0e-ea15-42e4-9ff6-63c1395f098d",
+                  "name": "Threat Analysis",
+                  "color": "#006400"
+                },
+                {
+                  "node_type": "4_action",
+                  "value": 500,
+                  "unique_id": "a46f1613-3f0b-43e9-9e19-1befe6ace343",
+                  "name": "Incident Response",
+                  "color": "#006400"
+                }
+              ],
+              "color": "#FFA500"
+            }
+          ],
+          "color": "#4169E1"
+        },
+        {
+          "node_type": "1_standard_node",
+          "value": 1100,
+          "unique_id": "0d1a2b1d-1fbc-4bc3-bb02-e6ce52a1b253",
+          "name": "Security Protocols",
+          "color": "#FFA500"
+        }
+      ],
+      "color": "#4169E1"
+    },
+    {
+      "node_type": "0_area_folder",
+      "value": 1300,
+      "unique_id": "036cc633-76b4-45e0-992b-28ba3de6cd29",
+      "name": "Data Quality",
+      "children": [
+        {
+          "node_type": "1_standard_node",
+          "value": 1100,
+          "unique_id": "03637822-61b4-4032-9ce3-bed9ed4e41bd",
+          "name": "Threat Monitoring",
+          "color": "#FFA500"
+        },
+        {
+          "node_type": "2_control_measure",
+          "value": 700,
+          "unique_id": "752650cd-d4f6-4333-84e2-0c2db1992357",
+          "name": "Policy Monitoring",
+          "color": "#66CDAA"
+        },
+        {
+          "node_type": "2_control_measure",
+          "value": 700,
+          "unique_id": "47b8628b-7862-48c4-b0f7-18b91e204ed8",
+          "name": "Regulatory Reporting",
+          "color": "#66CDAA"
+        }
+      ],
+      "color": "#4169E1"
+    },
+    {
+      "node_type": "0_area_folder",
+      "value": 1300,
+      "unique_id": "b0ae5f98-aa85-4eb0-a9e6-1cfc254bc648",
+      "name": "Data Privacy",
+      "children": [
+        {
+          "node_type": "1_standard_node",
+          "value": 1100,
+          "unique_id": "1043aa5f-a353-46f3-b923-65878cc9b6c5",
+          "name": "Quality Audits",
+          "children": [
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "8eade54b-2778-4f45-bbb9-2b7157a20cce",
+              "name": "Log Management",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "70d303d9-9761-4559-90bb-bb19cb70db00",
+              "name": "Audit Reviews",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "67ca1160-ffbe-4437-aa56-805cd8329277",
+              "name": "Risk Identification",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "1cf92486-1402-4ddf-95e9-7527d7349986",
+              "name": "Assessment Updates",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "8bccd19f-fc34-418d-91b3-d5167c974ded",
+              "name": "Permissions Audit",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "47714941-435c-4247-9ce2-b4d9e9af029a",
+              "name": "Procedure Development",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "c45d34b6-d372-4ff0-be0c-bb25420e6c10",
+              "name": "Plan Testing",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "3_procedure",
+              "value": 500,
+              "unique_id": "e6a8370f-bbd0-4fd9-9d97-e07048e44a38",
+              "name": "Report Compilation",
+              "color": "#ADD8E6"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "f3ddea4d-3dae-4257-b9ae-ebaab736dc5e",
+              "name": "Log Auditing",
+              "color": "#006400"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "05303793-0189-4c1c-84e7-5bc35b03a3df",
+              "name": "Mitigation Planning",
+              "color": "#006400"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "1a63aa8f-f09b-4673-b1d3-19765114c548",
+              "name": "Strategy Updates",
+              "color": "#006400"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "127b6464-f3ad-4029-9178-e2bb06cb351c",
+              "name": "Access Control Review",
+              "color": "#006400"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "e67e640a-8ebe-43ec-ab99-56b41b113fc6",
+              "name": "User Training",
+              "color": "#006400"
+            },
+            {
+              "node_type": "4_action",
+              "value": 500,
+              "unique_id": "c52d7025-6824-422b-bb7f-8dc6c83c8b6d",
+              "name": "Backup Testing",
+              "color": "#006400"
+            }
+          ],
+          "color": "#FFA500"
+        }
+      ],
+      "color": "#4169E1"
+    },
+    {
+      "node_type": "1_standard_node",
+      "value": 1100,
+      "unique_id": "e2863182-e631-4a58-980a-c3670f246dbe",
+      "name": "Policy Management",
+      "children": [
+        {
+          "node_type": "3_procedure",
+          "value": 500,
+          "unique_id": "39234aa7-b502-4faa-87d1-337025678d96",
+          "name": "Policy Drafting",
+          "color": "#ADD8E6"
+        }
+      ],
+      "color": "#FFA500"
+    },
+    {
+      "node_type": "1.5_value_chain",
+      "value": 900,
+      "unique_id": "1593f240-e3d0-41fb-a36c-9a692483abfc",
+      "name": "Data Quality Management",
+      "children": [
+        {
+          "node_type": "2.5_value_link",
+          "value": 700,
+          "unique_id": "5d438607-979c-4de6-830c-42e3b796cf50",
+          "name": "Link Between Data Collection and Data Validation",
+          "color": "#FFC0CB"
+        },
+        {
+          "node_type": "2.5_value_link",
+          "value": 700,
+          "unique_id": "b3b3c7bc-11b9-454b-9454-3c799237cea8",
+          "name": "Link Between Data Integration and Data Quality Monitoring",
+          "color": "#FFC0CB"
+        },
+        {
+          "node_type": "2.5_value_link",
+          "value": 700,
+          "unique_id": "9a037005-7824-4055-ab14-7e306f48e304",
+          "name": "Link Between Data Encryption and Compliance Monitoring",
+          "color": "#FFC0CB"
+        }
+      ],
+      "color": "#F00"
+    },
+    {
+      "node_type": "1.5_value_chain",
+      "value": 900,
+      "unique_id": "b04695b4-80a6-4e4e-9dcd-29d5666c6178",
+      "name": "Data Security and Compliance",
+      "color": "#F00"
+    },
+    {
+      "node_type": "1.5_value_chain",
+      "value": 900,
+      "unique_id": "dacc1595-cd47-443d-a1b9-2b01b007d813",
+      "name": "Data Lifecycle Management",
+      "color": "#F00"
+    }
+  ],
+  "color": "#4169E1"
+}
